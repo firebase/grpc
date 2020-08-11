@@ -27,8 +27,8 @@ let package = Package(
   ],
 
   dependencies: [
-    .package(name: "abseil", url: "https://github.com/paulb777/abseil-cpp.git", .revision("7790dc1")),
-    .package(name: "BoringSSL-GRPC", url: "https://github.com/paulb777/boringssl.git", .revision("897ffb6fb")),
+    .package(name: "abseil", url: "https://github.com/firebase/abseil-cpp.git", .branch("spm")),
+    .package(name: "BoringSSL-GRPC", url: "https://github.com/firebase/boringssl.git", .branch("spm")),
   ],
 
   targets: [
