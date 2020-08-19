@@ -30,7 +30,7 @@ let package = Package(
     .package(
       name: "abseil",
       url: "https://github.com/firebase/abseil-cpp.git",
-      .revision("7790dc1a581cd704ec173e0a30286aabacaaa99d")
+      .revision("d30bd7751ce343a05fca6413de0dec062163e5e9")
     ),
     .package(name: "BoringSSL-GRPC",
       url: "https://github.com/firebase/boringssl.git",
