@@ -5,12 +5,6 @@ import PackageDescription
 
 let package = Package(
   name: "gRPC",
-    platforms: [
-        .macOS(.v10_10),
-        .iOS(.v8),
-        .tvOS(.v9)
-    ],
-
   products: [
     .library(
       name: "gRPC-Core",
@@ -30,11 +24,11 @@ let package = Package(
     .package(
       name: "abseil",
       url: "https://github.com/firebase/abseil-cpp.git",
-      .revision("d30bd7751ce343a05fca6413de0dec062163e5e9")
+      .revision("8ddf129163673642a339d7980327bcb2c117a28e")
     ),
     .package(name: "BoringSSL-GRPC",
       url: "https://github.com/firebase/boringssl.git",
-      .branch("897ffb6fbb5a5ea149216d664ce8b04d77e3df22")
+      .branch("d3275d3c77a63746f869a092a1a2a014cf0e5b9a")
     ),
   ],
 
